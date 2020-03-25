@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="author" content="Yeeku.H.Lee(CrazyIt.org)" />
+	<meta http-equiv="Content-Type" content="text/html; charset=GBK" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0,user-scalable=no"/>
+	<meta name="format-detection" content="telephone=no"/>
+	<meta name="apple-mobile-web-app-status-bar-style"  />
+	<title> 俄罗斯方块 </title>
+	<script type="text/javascript" src="tetris.js">
+	</script>
+	<style type="text/css">
+		h1 {
+			margin-top: 20px;
+			color: #008000;
+		}
+		div {
+			font-size:13pt;
+			padding-bottom: 0px;
+		}
+		span {
+			font-family: tmb;
+			font-size:13pt;
+			font-weight: 600;
+			color: orangered;
+		}
+		canvas{
+			opacity: 0.5;
+		}
+	</style>
+</head>
+<body style="text-align: center;overflow: hidden;background-image: url(imgs/naima.png);">
+	<h1>俄罗斯方块</h1>
+	<div style="width:336px;border:1px solid black;background:pink; margin: -10px auto;">&nbsp;
+		<div style="float:left;">
+			速度：<span id="curSpeedEle"></span>
+			当前积分：<span id="curScoreEle"></span>
+		</div>
+		<div style="float:right;">
+			最高积分：<span id="maxScoreEle"></span>
+		</div>
+	</div>
+</body>
+</html>
